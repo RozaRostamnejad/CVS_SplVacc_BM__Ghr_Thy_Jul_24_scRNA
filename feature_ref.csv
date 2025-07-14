@@ -1,11 +1,4 @@
-#id,name,read,pattern,sequence,feature_type
-#TotalSeqB_Hashtag_1,Sample1,R2,5PNNNNNNNNNN(BC),GTCAACTCTTTAGCG,Antibody Capture
-#TotalSeqB_Hashtag_2,Sample2,R2,5PNNNNNNNNNN(BC),TGATGGCCTATTGGG,Antibody Capture
-#TotalSeqB_Hashtag_3,Sample3,R2,5PNNNNNNNNNN(BC),TTCCGCCTCTCTTTG,Antibody Capture
-#TotalSeqB_Hashtag_4,Sample4,R2,5PNNNNNNNNNN(BC),AGTAAGTTCAGCGTA,Antibody Capture
-
 id,name,read,pattern,sequence,feature_type
-
 TotalSeqB_Hashtag_1,Sample1,R2,5PNNNNNNNNNN(BC),ACCCACCAGTAAGAC,Antibody Capture
 TotalSeqB_Hashtag_2,Sample2,R2,5PNNNNNNNNNN(BC),GGTCGAGAGCATTCA,Antibody Capture
 TotalSeqB_Hashtag_3,Sample3,R2,5PNNNNNNNNNN(BC),CTTGCCGCATGTCAT,Antibody Capture
