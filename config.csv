@@ -1,7 +1,39 @@
 [gene-expression]
-reference,/path/to/transcriptome
+reference,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/references/refdata-gex-GRCm39-2024-A
 create-bam,true
 
 [libraries]
 fastq_id,fastqs,feature_types
-gex1,/path/to/fastqs,Gene Expression
+#gex1,/path/to/fastqs,Gene Expression
+GEx_SV_2,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_SV_2/GEx_SV_2-SCI7T022-SCI5T022_22CHH2LT4_S2_L002_R1_001.fastq.gz,Gene Expression
+GEx_SV_2,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_SV_2/GEx_SV_2-SCI7T022-SCI5T022_22CHH2LT4_S2_L002_I2_001.fastq.gz,Gene Expression
+GEx_SV_2,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_SV_2/GEx_SV_2-SCI7T022-SCI5T022_22CHH2LT4_S2_L002_I1_001.fastq.gz,Gene Expression
+GEx_SV_2,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_SV_2/GEx_SV_2-SCI7T022-SCI5T022_22CHH2LT4_S2_L002_R2_001.fastq.gz,Gene Expression
+GEx_GT_1,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_GT_1/GEx_GT_1-SCI7T091-SCI5T091_22CHH2LT4_S3_L002_R1_001.fastq.gz,Gene Expression
+GEx_GT_1,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_GT_1/GEx_GT_1-SCI7T091-SCI5T091_22CHH2LT4_S3_L002_I1_001.fastq.gz,Gene Expression
+GEx_GT_1,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_GT_1/GEx_GT_1-SCI7T091-SCI5T091_22CHH2LT4_S3_L002_I2_001.fastq.gz,Gene Expression
+GEx_GT_1,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_GT_1/GEx_GT_1-SCI7T091-SCI5T091_22CHH2LT4_S3_L002_R2_001.fastq.gz,Gene Expression
+GEx_GT_2,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_GT_2/GEx_GT_2-SCI7T092-SCI5T092_22CHH2LT4_S3_L003_R2_001.fastq.gz,Gene Expression
+GEx_GT_2,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_GT_2/GEx_GT_2-SCI7T092-SCI5T092_22CHH2LT4_S4_L002_R1_001.fastq.gz,Gene Expression
+GEx_GT_2,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_GT_2/GEx_GT_2-SCI7T092-SCI5T092_22CHH2LT4_S3_L003_I1_001.fastq.gz,Gene Expression
+GEx_GT_2,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_GT_2/GEx_GT_2-SCI7T092-SCI5T092_22CHH2LT4_S4_L002_R2_001.fastq.gz,Gene Expression
+GEx_GT_2,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_GT_2/GEx_GT_2-SCI7T092-SCI5T092_22CHH2LT4_S4_L002_I1_001.fastq.gz,Gene Expression
+GEx_GT_2,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_GT_2/GEx_GT_2-SCI7T092-SCI5T092_22CHH2LT4_S4_L002_I2_001.fastq.gz,Gene Expression
+GEx_GT_2,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_GT_2/GEx_GT_2-SCI7T092-SCI5T092_22CHH2LT4_S3_L003_I2_001.fastq.gz,Gene Expression
+GEx_GT_2,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_GT_2/GEx_GT_2-SCI7T092-SCI5T092_22CHH2LT4_S3_L003_R1_001.fastq.gz,Gene Expression
+GEx_BM_1,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_BM_1/GEx_BM_1-SCI7T077-SCI5T077_22CHH2LT4_S1_L003_I2_001.fastq.gz,Gene Expression
+GEx_BM_1,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_BM_1/GEx_BM_1-SCI7T077-SCI5T077_22CHH2LT4_S1_L003_I1_001.fastq.gz,Gene Expression
+GEx_BM_1,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_BM_1/GEx_BM_1-SCI7T077-SCI5T077_22CHH2LT4_S1_L003_R1_001.fastq.gz,Gene Expression
+GEx_BM_1,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_BM_1/GEx_BM_1-SCI7T077-SCI5T077_22CHH2LT4_S1_L003_R2_001.fastq.gz,Gene Expression
+GEx_SV_1,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_SV_1/GEx_SV_1-SCI7T021-SCI5T021_22CHH2LT4_S1_L002_I2_001.fastq.gz,Gene Expression
+GEx_SV_1,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_SV_1/GEx_SV_1-SCI7T021-SCI5T021_22CHH2LT4_S1_L002_I1_001.fastq.gz,Gene Expression
+GEx_SV_1,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_SV_1/GEx_SV_1-SCI7T021-SCI5T021_22CHH2LT4_S1_L002_R2_001.fastq.gz,Gene Expression
+GEx_SV_1,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_SV_1/GEx_SV_1-SCI7T021-SCI5T021_22CHH2LT4_S1_L002_R1_001.fastq.gz,Gene Expression
+GEx_GT_3,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_GT_3/GEx_GT_3-SCI7T093-SCI5T093_22CHH2LT4_S4_L003_R2_001.fastq.gz,Gene Expression
+GEx_GT_3,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_GT_3/GEx_GT_3-SCI7T093-SCI5T093_22CHH2LT4_S4_L003_R1_001.fastq.gz,Gene Expression
+GEx_GT_3,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_GT_3/GEx_GT_3-SCI7T093-SCI5T093_22CHH2LT4_S4_L003_I2_001.fastq.gz,Gene Expression
+GEx_GT_3,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_GT_3/GEx_GT_3-SCI7T093-SCI5T093_22CHH2LT4_S4_L003_I1_001.fastq.gz,Gene Expression
+GEx_BM_2,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_BM_2/GEx_BM_2-SCI7T078-SCI5T078_22CHH2LT4_S2_L003_I1_001.fastq.gz,Gene Expression
+GEx_BM_2,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_BM_2/GEx_BM_2-SCI7T078-SCI5T078_22CHH2LT4_S2_L003_R2_001.fastq.gz,Gene Expression
+GEx_BM_2,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_BM_2/GEx_BM_2-SCI7T078-SCI5T078_22CHH2LT4_S2_L003_R1_001.fastq.gz,Gene Expression
+GEx_BM_2,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_BM_2/GEx_BM_2-SCI7T078-SCI5T078_22CHH2LT4_S2_L003_I2_001.fastq.gz,Gene Expression 
