@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=32        #nr os cpu requested
 #SBATCH --mem=156GB 
 
-CONFIG_CSV=/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/code
+CONFIG_CSV=/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/code/config.csv
 
 export PATH=/gpfs/helios/home/rostamne/msc/software/cellranger-9.0.1/:$PATH
 
