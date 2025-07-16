@@ -13,8 +13,7 @@ cellranger multi \
   --id=GEX_BM1_multi \
   --csv=$CONFIG_CSV \
   --localcores=32 \
-  --localmem=156 \
-  --create-bam=true
+  --localmem=156
 
 
 

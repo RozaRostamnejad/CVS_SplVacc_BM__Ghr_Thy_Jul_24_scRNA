@@ -1,0 +1,154 @@
+Martian Runtime - v4.0.13
+2025-07-16 13:07:18 [build  ] Built with Go version go1.23.2 X:nocoverageredesign
+2025-07-16 13:07:18 [cmdline] mrp __GEX_BM1_multi.mro GEX_BM1_multi --localcores=32 --localmem=156
+2025-07-16 13:07:18 [pid    ] 41915
+2025-07-16 13:07:18 [environ] SHELL=/bin/bash
+2025-07-16 13:07:18 [environ] SLURM_JOB_USER=rostamne
+2025-07-16 13:07:18 [environ] SLURM_TASKS_PER_NODE=1
+2025-07-16 13:07:18 [environ] SLURM_JOB_UID=249503
+2025-07-16 13:07:18 [environ] SLURM_TASK_PID=41886
+2025-07-16 13:07:18 [environ] SLURM_LOCALID=0
+2025-07-16 13:07:18 [environ] SLURM_SUBMIT_DIR=/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/code
+2025-07-16 13:07:18 [environ] HOSTNAME=artemis19
+2025-07-16 13:07:18 [environ] SLURM_JOB_START_TIME=1752660438
+2025-07-16 13:07:18 [environ] SLURM_NODE_ALIASES=(null)
+2025-07-16 13:07:18 [environ] SLURM_CLUSTER_NAME=rocket
+2025-07-16 13:07:18 [environ] SLURM_JOB_END_TIME=1752671238
+2025-07-16 13:07:18 [environ] SLURM_CPUS_ON_NODE=32
+2025-07-16 13:07:18 [environ] SLURM_JOB_CPUS_PER_NODE=32
+2025-07-16 13:07:18 [environ] PWD=/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/code
+2025-07-16 13:07:18 [environ] SLURM_GTIDS=0
+2025-07-16 13:07:18 [environ] LOGNAME=rostamne
+2025-07-16 13:07:18 [environ] XDG_SESSION_TYPE=tty
+2025-07-16 13:07:18 [environ] SLURM_JOB_PARTITION=amd
+2025-07-16 13:07:18 [environ] SLURM_JOB_NUM_NODES=1
+2025-07-16 13:07:18 [environ] SLURM_JOBID=58453680
+2025-07-16 13:07:18 [environ] SLURM_JOB_QOS=normal
+2025-07-16 13:07:18 [environ] HOME=/gpfs/helios/home/rostamne
+2025-07-16 13:07:18 [environ] LANG=C
+2025-07-16 13:07:18 [environ] LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:
+2025-07-16 13:07:18 [environ] SLURM_PROCID=0
+2025-07-16 13:07:18 [environ] TMPDIR=/tmp
+2025-07-16 13:07:18 [environ] SLURM_CPUS_PER_TASK=32
+2025-07-16 13:07:18 [environ] SLURM_TOPOLOGY_ADDR=artemis19
+2025-07-16 13:07:18 [environ] SSH_CONNECTION=193.40.12.14 36444 193.40.44.65 22
+2025-07-16 13:07:18 [environ] SLURM_TOPOLOGY_ADDR_PATTERN=node
+2025-07-16 13:07:18 [environ] XDG_SESSION_CLASS=user
+2025-07-16 13:07:18 [environ] SLURM_MEM_PER_NODE=159744
+2025-07-16 13:07:18 [environ] SLURM_WORKING_CLUSTER=rocket:172.16.10.71:6807:9984:109
+2025-07-16 13:07:18 [environ] TERM=xterm-256color
+2025-07-16 13:07:18 [environ] USER=rostamne
+2025-07-16 13:07:18 [environ] SLURM_NODELIST=artemis19
+2025-07-16 13:07:18 [environ] ENVIRONMENT=BATCH
+2025-07-16 13:07:18 [environ] SLURM_JOB_ACCOUNT=uthpc
+2025-07-16 13:07:18 [environ] SLURM_PRIO_PROCESS=0
+2025-07-16 13:07:18 [environ] SHLVL=2
+2025-07-16 13:07:18 [environ] SLURM_NNODES=1
+2025-07-16 13:07:18 [environ] BASH_ENV=/usr/share/lmod/lmod/init/bash
+2025-07-16 13:07:18 [environ] XDG_SESSION_ID=c638
+2025-07-16 13:07:18 [environ] SLURM_SUBMIT_HOST=login1.hpc.ut.ee
+2025-07-16 13:07:18 [environ] XDG_RUNTIME_DIR=/run/user/249503
+2025-07-16 13:07:18 [environ] SLURM_JOB_ID=58453680
+2025-07-16 13:07:18 [environ] SLURM_NODEID=0
+2025-07-16 13:07:18 [environ] SSH_CLIENT=193.40.12.14 36444 22
+2025-07-16 13:07:18 [environ] XDG_DATA_DIRS=/gpfs/helios/home/rostamne/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+2025-07-16 13:07:18 [environ] SLURM_CONF=/var/spool/slurm/slurmd/conf-cache/slurm.conf
+2025-07-16 13:07:18 [environ] PATH=/gpfs/helios/home/rostamne/msc/software/cellranger-9.0.1/lib/bin:/gpfs/helios/home/rostamne/msc/software/cellranger-9.0.1/external/martian/bin:/gpfs/helios/home/rostamne/msc/software/cellranger-9.0.1/external/anaconda/bin:/gpfs/helios/home/rostamne/msc/software/cellranger-9.0.1/bin/tenkit:/gpfs/helios/home/rostamne/msc/software/cellranger-9.0.1/bin:/gpfs/helios/home/rostamne/msc/software/cellranger-9.0.1/:/gpfs/space/software/cluster_software/spack/linux-rhel9-x86_64/gcc-9.2.0/tree-2.1.0-ajngc7347zvlpoqomoydlkwdybd3fs7e/bin:/gpfs/helios/home/rostamne/msc/software/cellranger-9.0.1:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/gpfs/helios/home/rostamne/.local/bin:/gpfs/helios/home/rostamne/bin
+2025-07-16 13:07:18 [environ] SLURM_JOB_NAME=cellranger_BM1
+2025-07-16 13:07:18 [environ] SSH_TTY=/dev/pts/35
+2025-07-16 13:07:18 [environ] SLURM_JOB_GID=1000
+2025-07-16 13:07:18 [environ] SLURM_JOB_NODELIST=artemis19
+2025-07-16 13:07:18 [environ] BASH_FUNC_ml%%=() {  eval "$($LMOD_DIR/ml_cmd "$@")"
+}
+2025-07-16 13:07:18 [environ] BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+2025-07-16 13:07:18 [environ] BASH_FUNC_module%%=() {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then
+ case "$-" in 
+ *v*x*)
+ __lmod_sh_dbg='vx'
+ ;;
+ *v*)
+ __lmod_sh_dbg='v'
+ ;;
+ *x*)
+ __lmod_sh_dbg='x'
+ ;;
+ esac;
+ fi;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ set +$__lmod_sh_dbg;
+ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;
+ fi;
+ eval "$($LMOD_CMD shell "$@")" && eval "$(${LMOD_SETTARG_CMD:-:} -s sh)";
+ __lmod_my_status=$?;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ echo "Shell debugging restarted" 1>&2;
+ set -$__lmod_sh_dbg;
+ fi;
+ unset __lmod_sh_dbg;
+ return $__lmod_my_status
+}
+2025-07-16 13:07:18 [environ] _=/gpfs/helios/home/rostamne/msc/software/cellranger-9.0.1/cellranger
+2025-07-16 13:07:18 [environ] HDF5_USE_FILE_LOCKING=FALSE
+2025-07-16 13:07:18 [environ] LC_CTYPE=en_US.UTF-8
+2025-07-16 13:07:18 [environ] MKL_CBWR=COMPATIBLE
+2025-07-16 13:07:18 [environ] PYTHONNOUSERSITE=1
+2025-07-16 13:07:18 [environ] RUST_BACKTRACE=1
+2025-07-16 13:07:18 [environ] PYTHONPATH=/gpfs/helios/home/rostamne/msc/software/cellranger-9.0.1/lib/python:/gpfs/helios/home/rostamne/msc/software/cellranger-9.0.1/external/martian/adapters/python
+2025-07-16 13:07:18 [environ] TENX_PRODUCT=cellranger
+2025-07-16 13:07:18 [environ] TENX_VERSION=cellranger-9.0.1
+2025-07-16 13:07:18 [environ] TENX_COPYRIGHT=Copyright 2023 10x Genomics, Inc. All rights reserved.
+2025-07-16 13:07:18 [options] --localcores=32
+2025-07-16 13:07:18 [options] --localmem=156
+2025-07-16 13:07:18 [environ] MROPATH=/gpfs/helios/home/rostamne/msc/software/cellranger-9.0.1/mro
+2025-07-16 13:07:18 [version] MRO Version=cellranger-9.0.1
+2025-07-16 13:07:18 [options] --jobmode=local
+2025-07-16 13:07:18 [options] --vdrmode=rolling
+2025-07-16 13:07:18 [options] --profile=disable
+2025-07-16 13:07:18 [options] --stackvars=false
+2025-07-16 13:07:18 [options] --zip=false
+2025-07-16 13:07:18 [options] --limit-loadavg=false
+2025-07-16 13:07:18 [options] --noexit=false
+2025-07-16 13:07:18 [options] --nopreflight=false
+2025-07-16 13:07:19 [jobmngr] Job config = /gpfs/helios/home/rostamne/msc/software/cellranger-9.0.1/external/martian/jobmanagers/config.json
+2025-07-16 13:07:19 [jobmngr] Using 32 cores, per --localcores option.
+2025-07-16 13:07:19 [jobmngr] Using 156 GB, per --localmem option.
+2025-07-16 13:07:19 [sysinfo] linux amd64
+2025-07-16 13:07:19 [sysinfo] Linux kernel release version: 5.14.0-427.13.1.el9_4.x86_64
+2025-07-16 13:07:19 [sysinfo] glibc version: 2.34
+2025-07-16 13:07:19 [filesys] Pipestance path /gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/code/GEX_BM1_multi
+2025-07-16 13:07:19 [filesys] Pipestance filesystem type gpfs
+2025-07-16 13:07:19 [filesys] 3.5 PB and 194,932,863 inodes available.
+2025-07-16 13:07:19 [filesys] Pipestance filesystem gpfs mount options: rw,relatime,rw
+2025-07-16 13:07:19 [filesys] Pipestance directory permissions drwxr-xr-x owned by uid 249503 gid 1000
+2025-07-16 13:07:19 [filesys] Bin path /gpfs/helios/home/rostamne/msc/software/cellranger-9.0.1/external/martian/bin
+2025-07-16 13:07:19 [filesys] Bin filesystem type gpfs
+2025-07-16 13:07:19 [filesys] Bin filesystem gpfs mount options: rw,relatime,rw
+2025-07-16 13:07:19 [filesys] Executable file permissions -rwxr-xr-x owned by uid 249503 gid 1000
+2025-07-16 13:07:19 [user   ] User rostamne uid 249503 / gid 1000
+Serving UI at http://artemis19:40315?auth=bdKsP5FIN7tKJzOp-qdL0Mz5p0Df-A1LrKC89ZNuW18
+
+Running preflight checks (please wait)...
+2025-07-16 13:07:19 [runtime] (ready)           ID.GEX_BM1_multi.SC_MULTI_CS.MULTI_PREFLIGHT
+2025-07-16 13:07:19 [runtime] (run:local)       ID.GEX_BM1_multi.SC_MULTI_CS.MULTI_PREFLIGHT.fork0.chnk0.main
+2025-07-16 13:07:27 [runtime] (failed)          ID.GEX_BM1_multi.SC_MULTI_CS.MULTI_PREFLIGHT
+
+[error] Pipestance failed. Error log at:
+GEX_BM1_multi/SC_MULTI_CS/MULTI_PREFLIGHT/fork0/chnk0-ua3bb7779d7/_errors
+
+Log message:
+Specified FASTQ directory is not a directory: /gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_BM_1/GEx_BM_1-SCI7T077-SCI5T077_22CHH2LT4_S1_L003_I2_001.fastq.gz
+
+Waiting 6 seconds for UI to do final refresh.
+Pipestance failed. Use --noexit option to keep UI running after failure.
+
+2025-07-16 13:07:33 Shutting down.
+2025-07-16 13:07:33 [jobmngr] Highest memory usage observed: {
+  "rss": 362577920,
+  "shared": 6291456,
+  "vmem": 1986420736,
+  "text": 17678336,
+  "stack": 409714688,
+  "proc_count": 39
+}

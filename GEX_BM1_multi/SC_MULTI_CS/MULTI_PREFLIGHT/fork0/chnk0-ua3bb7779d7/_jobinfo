@@ -1,0 +1,146 @@
+{
+    "name": "ID.GEX_BM1_multi.SC_MULTI_CS.MULTI_PREFLIGHT.fork0.chnk0",
+    "type": "local",
+    "cwd": "/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/code/GEX_BM1_multi/SC_MULTI_CS/MULTI_PREFLIGHT/fork0/chnk0-ua3bb7779d7/files",
+    "rusage": {
+        "self": {
+            "ru_maxrss": 25356,
+            "ru_ixrss": 0,
+            "ru_idrss": 0,
+            "ru_minflt": 899,
+            "ru_majflt": 0,
+            "ru_nswap": 0,
+            "ru_utime": 0.005194,
+            "ru_stime": 0.009295,
+            "ru_inblock": 0,
+            "ru_oublock": 0,
+            "ru_msgsnd": 0,
+            "ru_msgrcv": 0,
+            "ru_nsignals": 0,
+            "ru_nivcsw": 1
+        },
+        "children": {
+            "ru_maxrss": 353828,
+            "ru_ixrss": 0,
+            "ru_idrss": 0,
+            "ru_minflt": 89809,
+            "ru_majflt": 4,
+            "ru_nswap": 0,
+            "ru_utime": 6.019221,
+            "ru_stime": 1.673321,
+            "ru_inblock": 640,
+            "ru_oublock": 0,
+            "ru_msgsnd": 0,
+            "ru_msgrcv": 0,
+            "ru_nsignals": 0,
+            "ru_nivcsw": 14
+        }
+    },
+    "used_bytes": {
+        "rss": 362577920,
+        "shared": 6291456,
+        "vmem": 1986420736,
+        "text": 17678336,
+        "stack": 409714688,
+        "proc_count": 1
+    },
+    "io": {
+        "total": {
+            "read": {
+                "sysc": 140224,
+                "bytes": 0
+            },
+            "write": {
+                "sysc": 624,
+                "bytes": 0
+            }
+        },
+        "max": {
+            "read": {
+                "sysc": 28010.40832189627,
+                "bytes": 0
+            },
+            "write": {
+                "sysc": 1243.0756626668524,
+                "bytes": 0
+            }
+        },
+        "dev": {
+            "read": {
+                "sysc": 8137.073613447015,
+                "bytes": 0
+            },
+            "write": {
+                "sysc": 357.2257707338932,
+                "bytes": 0
+            }
+        }
+    },
+    "wallclock": {
+        "start": "2025-07-16T13:07:19.397153393+03:00",
+        "end": "2025-07-16T13:07:27.326007833+03:00",
+        "duration_seconds": 7.92885445
+    },
+    "profile_mode": "disable",
+    "stackvars_flag": "disable",
+    "monitor_flag": "disable",
+    "invocation": {
+        "call": "SC_MULTI_CS",
+        "args": {
+            "config": {
+                "bytes": null,
+                "file": "/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/code/config.csv"
+            },
+            "config_hash": "0ee0e13a54040850a8b1d24908a3e3527a07713499ca9260b4b48e19cd03fe74",
+            "no_preflight": false,
+            "sample_desc": "",
+            "sample_id": "GEX_BM1_multi"
+        },
+        "mro_file": "rna/sc_multi_cs.mro"
+    },
+    "version": {
+        "martian": "v4.0.13",
+        "pipelines": "cellranger-9.0.1"
+    },
+    "sge": {
+        "SLURM_CLUSTER_NAME": "rocket",
+        "SLURM_CONF": "/var/spool/slurm/slurmd/conf-cache/slurm.conf",
+        "SLURM_CPUS_ON_NODE": "32",
+        "SLURM_CPUS_PER_TASK": "32",
+        "SLURM_GTIDS": "0",
+        "SLURM_JOBID": "58453680",
+        "SLURM_JOB_ACCOUNT": "uthpc",
+        "SLURM_JOB_CPUS_PER_NODE": "32",
+        "SLURM_JOB_END_TIME": "1752671238",
+        "SLURM_JOB_GID": "1000",
+        "SLURM_JOB_ID": "58453680",
+        "SLURM_JOB_NAME": "cellranger_BM1",
+        "SLURM_JOB_NODELIST": "artemis19",
+        "SLURM_JOB_NUM_NODES": "1",
+        "SLURM_JOB_PARTITION": "amd",
+        "SLURM_JOB_QOS": "normal",
+        "SLURM_JOB_START_TIME": "1752660438",
+        "SLURM_JOB_UID": "249503",
+        "SLURM_JOB_USER": "rostamne",
+        "SLURM_LOCALID": "0",
+        "SLURM_MEM_PER_NODE": "159744",
+        "SLURM_NNODES": "1",
+        "SLURM_NODEID": "0",
+        "SLURM_NODELIST": "artemis19",
+        "SLURM_NODE_ALIASES": "(null)",
+        "SLURM_PRIO_PROCESS": "0",
+        "SLURM_PROCID": "0",
+        "SLURM_SUBMIT_DIR": "/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/code",
+        "SLURM_SUBMIT_HOST": "login1.hpc.ut.ee",
+        "SLURM_TASKS_PER_NODE": "1",
+        "SLURM_TASK_PID": "41886",
+        "SLURM_TOPOLOGY_ADDR": "artemis19",
+        "SLURM_TOPOLOGY_ADDR_PATTERN": "node",
+        "SLURM_WORKING_CLUSTER": "rocket:172.16.10.71:6807:9984:109"
+    },
+    "host": "artemis19",
+    "pid": 41945,
+    "threads": 1,
+    "memGB": 1,
+    "vmemGB": 4
+}

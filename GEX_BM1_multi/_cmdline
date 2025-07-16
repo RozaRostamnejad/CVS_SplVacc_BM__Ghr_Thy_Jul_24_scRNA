@@ -1,0 +1,1 @@
+cellranger multi --id=GEX_BM1_multi --csv=/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/code/config.csv --localcores=32 --localmem=156

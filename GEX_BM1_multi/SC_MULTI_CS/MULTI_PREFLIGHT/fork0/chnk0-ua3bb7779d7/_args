@@ -1,0 +1,10 @@
+{
+    "__mem_gb": 1,
+    "__threads": 1,
+    "__vmem_gb": 4,
+    "config": {
+        "bytes": null,
+        "file": "/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/code/config.csv"
+    },
+    "is_pd": false
+}
