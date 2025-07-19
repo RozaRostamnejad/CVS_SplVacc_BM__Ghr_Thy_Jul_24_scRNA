@@ -1,1 +1,0 @@
-{"properties":{"error":"unknown","event_count":"\u003c3","failed_stage":"SC_MULTI_CS.MULTI_PREFLIGHT","jobmode":null,"pipestance_filesystem":"gpfs","runtime":14.618266865,"subcommand":"multi"},"group_hash":"8/sfvigh8aGnwONbRYOzDz1wRZLu1qDZeGojRThn/D4=","name":"failure","product":"cellranger","version":"cellranger-9.0.1","config_version":1}
