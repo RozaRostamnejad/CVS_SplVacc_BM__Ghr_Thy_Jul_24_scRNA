@@ -6,3 +6,6 @@ GEX_BM1_multi/
 *~
 
 *.log
+*.out
+*/outs/
+*/temp/
