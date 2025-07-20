@@ -1,0 +1,8 @@
+slurm-*.out
+GEX_BM1_multi/
+
+*.mro
+*.swp
+*~
+
+*.log

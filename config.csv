@@ -11,17 +11,11 @@ fastq_id,fastqs,feature_types
 #gex1,/path/to/fastqs,Gene Expression
 #ab1,/path/to/ab_fastqs,Antibody Capture
 
-GEx_BM_1-SCI7T077-SCI5T077_22CHH2LT4,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_BM_1/GEx_BM_1-SCI7T077-SCI5T077_22CHH2LT4_S1_L003_I2_001.fastq.gz,Gene Expression
-GEx_BM_1-SCI7T077-SCI5T077_22CHH2LT4,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_BM_1/GEx_BM_1-SCI7T077-SCI5T077_22CHH2LT4_S1_L003_I1_001.fastq.gz,Gene Expression
-GEx_BM_1-SCI7T077-SCI5T077_22CHH2LT4,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_BM_1/GEx_BM_1-SCI7T077-SCI5T077_22CHH2LT4_S1_L003_R1_001.fastq.gz,Gene Expression
-GEx_BM_1-SCI7T077-SCI5T077_22CHH2LT4,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_BM_1/GEx_BM_1-SCI7T077-SCI5T077_22CHH2LT4_S1_L003_R2_001.fastq.gz,Gene Expression
+
+GEx_BM_1-SCI7T077-SCI5T077_22CHH2LT4,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData, Gene Expression
 
 
-Hash_BM_1-AK38717-AK38718_22CHMMLT4,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/Hashtags/X204SC24061682-Z02-F001/X204SC24061682-Z02-F001/01.RawData/Hash_BM_1/Hash_BM_1-AK38717-AK38718_22CHMMLT4_S8_L005_I1_001.fastq.gz,Antibody Capture
-Hash_BM_1-AK38717-AK38718_22CHMMLT4,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/Hashtags/X204SC24061682-Z02-F001/X204SC24061682-Z02-F001/01.RawData/Hash_BM_1/Hash_BM_1-AK38717-AK38718_22CHMMLT4_S8_L005_R1_001.fastq.gz,Antibody Capture
-Hash_BM_1-AK38717-AK38718_22CHMMLT4,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/Hashtags/X204SC24061682-Z02-F001/X204SC24061682-Z02-F001/01.RawData/Hash_BM_1/Hash_BM_1-AK38717-AK38718_22CHMMLT4_S8_L005_I2_001.fastq.gz,Antibody Capture
-Hash_BM_1-AK38717-AK38718_22CHMMLT4,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/Hashtags/X204SC24061682-Z02-F001/X204SC24061682-Z02-F001/01.RawData/Hash_BM_1/Hash_BM_1-AK38717-AK38718_22CHMMLT4_S8_L005_R2_001.fastq.gz,Antibody Capture
-
+Hash_BM_1-AK38717-AK38718_22CHMMLT4,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/Hashtags/X204SC24061682-Z02-F001/X204SC24061682-Z02-F001/01.RawData, Antibody Capture
 
 [samples]
 sample_id,hashtag_ids
