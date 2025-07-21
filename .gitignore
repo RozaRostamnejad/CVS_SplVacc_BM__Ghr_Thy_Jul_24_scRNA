@@ -1,5 +1,10 @@
 slurm-*.out
 GEX_BM1_multi/
+GEX_BM2_multi/
+GEX_GT1_multi/
+GEX_GT2_multi/
+GEX_GT3_multi/
+
 
 *.mro
 *.swp

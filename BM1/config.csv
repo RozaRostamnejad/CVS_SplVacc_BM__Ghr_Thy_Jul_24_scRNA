@@ -3,7 +3,7 @@ reference,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/refere
 create-bam,true
 
 [feature]
-reference,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/code/feature_ref.csv
+reference,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/code/BM1/feature_ref.csv
 
 [libraries]
 fastq_id,fastqs,feature_types
@@ -12,14 +12,7 @@ fastq_id,fastqs,feature_types
 #ab1,/path/to/ab_fastqs,Antibody Capture
 
 
-GEx_BM_1-SCI7T077-SCI5T077_22CHH2LT4,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData, Gene Expression
+GEx_BM_1-SCI7T077-SCI5T077_22CHH2LT4,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData,Gene Expression
 
 
-Hash_BM_1-AK38717-AK38718_22CHMMLT4,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/Hashtags/X204SC24061682-Z02-F001/X204SC24061682-Z02-F001/01.RawData, Antibody Capture
-
-[samples]
-sample_id,hashtag_ids
-BM_1_C-1,B0301
-BM_1_C-2,B0302
-BM_1_CVS-1,B0303
-BM_1_CVS-2,B0304
+Hash_BM_1-AK38717-AK38718_22CHMMLT4,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/Hashtags/X204SC24061682-Z02-F001/X204SC24061682-Z02-F001/01.RawData,Antibody Capture
