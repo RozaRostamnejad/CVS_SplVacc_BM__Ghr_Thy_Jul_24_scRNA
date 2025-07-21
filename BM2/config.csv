@@ -3,7 +3,7 @@ reference,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/refere
 create-bam,true
 
 [feature]
-reference,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/code/feature_ref.csv
+reference,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/code/BM2/feature_ref.csv
 
 [libraries]
 fastq_id,fastqs,feature_types

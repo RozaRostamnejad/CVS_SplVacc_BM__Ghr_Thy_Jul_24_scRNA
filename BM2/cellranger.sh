@@ -7,10 +7,9 @@
 
 CONFIG_CSV=/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/code/BM2/config.csv
 
-export PATH=/gpfs/helios/home/rostamne/msc/software/cellranger-9.0.1/:$PATH
 
 cellranger multi \
-  --id=GEX_BM1_multi \
+  --id=GEX_BM2_multi \
   --csv=$CONFIG_CSV \
   --localcores=32 \
   --localmem=256
