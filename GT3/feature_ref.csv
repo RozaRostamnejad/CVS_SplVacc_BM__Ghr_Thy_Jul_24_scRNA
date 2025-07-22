@@ -1,0 +1,3 @@
+id,name,read,pattern,sequence,feature_type
+B0303,TotalSeqB_B0303_Hashtag_3,R2,5PNNNNNNNNNN(BC),CTTGCCGCATGTCAT,Antibody Capture
+B0306,TotalSeqB_B0306_Hashtag_6,R2,5PNNNNNNNNNN(BC),TATGCTGCCACGGTA,Antibody Capture
