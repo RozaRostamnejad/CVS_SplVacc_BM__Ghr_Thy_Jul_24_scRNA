@@ -4,7 +4,8 @@ GEX_BM2_multi/
 GEX_GT1_multi/
 GEX_GT2_multi/
 GEX_GT3_multi/
-
+GEX_SV1_multi/
+GEX_SV2_multi/
 
 *.mro
 *.swp
