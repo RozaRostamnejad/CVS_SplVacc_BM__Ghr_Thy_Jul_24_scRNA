@@ -1,0 +1,21 @@
+[gene-expression]
+reference,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/references/refdata-gex-GRCm39-2024-A
+create-bam,true
+
+[feature]
+reference,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/code/SV1/feature_ref.csv
+
+[libraries]
+fastq_id,fastqs,feature_types
+GEx_SV_1-SCI7T021-SCI5T021_22CHH2LT4,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData,Gene Expression
+Hash_SV_1-AK36059-AK36809_22CHMMLT4,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/Hashtags/X204SC24061682-Z02-F001/X204SC24061682-Z02-F001/01.RawData,Antibody Capture
+
+[samples]
+sample_id,hashtag_ids
+c-2,B0301
+s-1,B0302
+s-2,B0303
+v-1,B0304
+v-2,B0305
+vs-1,B0306
+vs-2,B0307
