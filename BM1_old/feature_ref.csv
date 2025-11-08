@@ -1,0 +1,5 @@
+id,name,read,pattern,sequence,feature_type
+B0301,TotalSeqB_B0301_Hashtag_1,R2,5PNNNNNNNNNN(BC),ACCCACCAGTAAGAC,Antibody Capture
+B0302,TotalSeqB_B0302_Hashtag_2,R2,5PNNNNNNNNNN(BC),GGTCGAGAGCATTCA,Antibody Capture
+B0303,TotalSeqB_B0303_Hashtag_3,R2,5PNNNNNNNNNN(BC),CTTGCCGCATGTCAT,Antibody Capture
+B0304,TotalSeqB_B0304_Hashtag_4,R2,5PNNNNNNNNNN(BC),AAAGCATTCTTCACG,Antibody Capture
