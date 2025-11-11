@@ -7,6 +7,16 @@ GEX_GT3_multi/
 GEX_SV1_multi/
 GEX_SV2_multi/
 
+
+GEX_BM1_new_multi/
+GEX_BM2_new_multi/
+GEX_GT1_new_multi/
+GEX_GT2_new_multi/
+GEX_GT3_new_multi/
+GEX_SV1_new_multi/
+GEX_SV2_new_multi/
+
+
 *.mro
 *.swp
 *~
