@@ -10,6 +10,8 @@ fastq_id,fastqs,feature_types
 GEx_GT_1-SCI7T091-SCI5T091_22CHH2LT4,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/X204SC24061682-Z01-F001_multipath/X204SC24061682-Z01-F001_01/01.RawData/GEx_GT_1,Gene Expression
 Hash_GT_1-AK37008-AK51724_22CHMMLT4,/gpfs/helios/home/rostamne/CVS_SplVacc_BM__Ghr_Thy_Jul_24_scRNA/Hashtags/X204SC24061682-Z02-F001/X204SC24061682-Z02-F001/01.RawData/Hash_GT_1,Antibody Capture
 
+
 [samples]
+sample_id,hashtag_ids
 C-1,B0301
 G-1,B0304
